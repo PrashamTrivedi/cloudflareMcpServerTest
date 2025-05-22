@@ -40,8 +40,8 @@ mcpController.post(async (c) => {
         console.error({resume: resumeText, options})
         const parsedResume = await extractResumeData(resumeText, options)
         return {
-            success: true,
-            data: parsedResume
+            isError: false,
+            content: [{type: "text", text: JSON.stringify(parsedResume)}]
         }
     })
     // Connect to the MCP server
