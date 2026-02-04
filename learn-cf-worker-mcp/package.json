@@ -18,7 +18,7 @@
 	"dependencies": {
 		"@hono/swagger-ui": "^0.5.1",
 		"@hono/zod-openapi": "^0.19.6",
-		"@modelcontextprotocol/sdk": "^1.11.4",
+		"@modelcontextprotocol/sdk": "^1.26.0",
 		"fetch-to-node": "^2.1.0",
 		"hono": "^4.7.10",
 		"openai": "^4.100.0",
